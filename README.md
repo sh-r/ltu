@@ -1,4 +1,4 @@
-# ltu
+# LTU Assignment 1
 
 This repo contains the deg2rad package. The repo will be updated with all the future assignment submissions too. 
 
