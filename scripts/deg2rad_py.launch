@@ -1,0 +1,10 @@
+<launch>
+ <param name="/degrees" type="double" value="90.5"  />
+ 
+ <node pkg="deg2rad_pkg" type="deg2rad.py" name="deg2rad" />
+ <node pkg    ="deg2rad_pkg"
+       type   ="get_deg.py"
+       name   ="get_deg"
+       output ="screen"
+ />
+</launch>
